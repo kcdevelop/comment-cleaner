@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Black+Ops+One&family=Bungee+Hairline&family=Poiret+One&display=swap');
+
+form
+input,
+label,
+textarea {
+    padding: 0px;
+    margin: 0px;
+}
+input,
+textarea,
+label[for="message"] {
+    display: block;
+}
+input,
+textarea {
+    border: solid 1px #000;
+    box-sizing: border-box;
+}
+textarea,
+label[for="message"] {
+    min-width: 357px;
+    max-width: 357px;
+}
+textarea,
+.message-count {
+    font-family: "arial";
+}
+textarea {
+    letter-spacing: .01em;
+    min-height: 125px;
+    max-height: 125px;
+    padding: 4px;
+}
+label[for="message"] {
+    position: relative;
+}
+input[name="submit"] {
+    font-family: "Black Ops One";
+    letter-spacing: .02em;
+    border-radius: 2px;
+    margin-top: 15px;
+    padding: 2px 4px;
+    font-size: 15px;
+}
+.counter-display {
+    position: absolute;
+    margin-top: 5px;
+    font-size: 12px;
+    right: 0;
+}
